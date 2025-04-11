@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+#wish-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+.image-container img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#animate-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#animate-btn:hover {
+    background-color: #3e8e41;
+}
+
+#purpose-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#purpose-btn:hover {
+    background-color: #3e8e41;
+}
+
+#purpose-options {
+    margin-top: 20px;
+}
+
+#yes-btn, #no-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yes-btn:hover, #no-btn:hover {
+    background-color: #3e8e41;
+}
+
+#name-input {
+    margin-top: 20px;
+}
+#name-field {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit-name-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-name-btn:hover {
+    background-color: #3e8e41;
+}
+
+#final-message {
+    margin-top: 20px;
+}
+
+#final-wish {
+    font-size: 18px;
+    color: #666;
+}
+
+#final-yes-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#final-yes-btn:hover {
+    background-color: #3e8e41;
+}
+
+#balloons-container {
+    position: absolute;
+    top: 0;
+    left:0;
+}

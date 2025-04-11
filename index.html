@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href ="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday! 🎂</h1>
+        <p id="wish-text">Wishing you a day filled with love, laughter, and all your favorite things! 🎁</p>
+        <div class="image-container">
+            <img src="birthday-cake.jpg" alt="Birthday Cake">
+            <img src="balloons.jpg" alt="Balloons">
+            <img src="confetti.jpg" alt="Confetti">
+        </div>
+        <button id="animate-btn">Animate!</button>
+        <button id="purpose-btn">What's the purpose?</button>
+        <div id="purpose-options" style="display: none;">
+            <p>Is this birthday wish for someone special?</p>
+            <button id="yes-btn">Yes</button>
+            <button id="no-btn">No</button>
+        </div>
+        <div id="name-input" style="display: none;">
+            <p>Enter the name of the birthday person:</p>
+            <input id="name-field" type="text">
+            <button id="submit-name-btn">Submit</button>
+        </div>
+        <div id="final-message" style="display: none;">
+            <p id="final-wish"></p>
+            <button id="final-yes-btn">Yes</button>
+        </div>
+    </div>
+    <div id="balloons-container"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
